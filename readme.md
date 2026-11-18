@@ -76,7 +76,7 @@ cd "$HOME/.config/bash"; chmod +x installer.sh; ./installer.sh
 
 | Version Number | Uniform Resource Locator |
 | :---: | :--- |
-| `01.01` | [repository](https://github.com/possior/config-bash/tree/ver.01.01.01/), [release](https://github.com/possior/config-bash/releases/tag/ver.01.01.01/) |
+| `01.01` | [repository](https://github.com/possior/config-fontconfig/tree/ver.01.01.01/), [release](https://github.com/possior/config-fontconfig/releases/tag/ver.01.01.01/) |
 
 ## License
 
