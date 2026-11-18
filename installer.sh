@@ -18,6 +18,11 @@ do
   esac
 done
 
+repo="$(dirname "${BASH_SOURCE[0]}")"
+
+files=()
+dests=()
+
 [[ "${#files[@]}" == "${#dests[@]}" ]] && n="${#files[@]}" || exit
 
 [[ -z "$mode" ]] && mode=o || exit
