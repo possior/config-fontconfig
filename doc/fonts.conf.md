@@ -14,6 +14,18 @@
 <!DOCTYPE fontconfig SYSTEM "urn:fontconfig:fonts.dtd">
 ```
 
+以下のXML文章は、`serif`フォントとして使用するフォント列を設定する。
+
+```XML
+  <alias>
+    <family>serif</family>
+    <prefer>
+      <family>Liberation Serif</family>
+      <family>IPAexMincho</family>
+    </prefer>
+  </alias>
+```
+
 # Fontconfig Document
 
 The XML sentence below declares use of XML 1.0.
@@ -26,4 +38,16 @@ The XML sentence below declares use of grammar defined under the name `fontconfi
 
 ```XML
 <!DOCTYPE fontconfig SYSTEM "urn:fontconfig:fonts.dtd">
+```
+
+The XML sentences below configures the sequence of fonts used as `serif` fonts.
+
+```XML
+  <alias>
+    <family>serif</family>
+    <prefer>
+      <family>Liberation Serif</family>
+      <family>IPAexMincho</family>
+    </prefer>
+  </alias>
 ```
