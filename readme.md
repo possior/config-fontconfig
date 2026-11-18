@@ -11,6 +11,12 @@
 
 ## 導入
 
+本リポジトリを`$HOME/.config/fontconfig`ディレクトリに複製する。`default`は希望するブランチ名やタグ名に置き換えること。ただし、先に`$HOME/.config/fontconfig`ディレクトリの中に保存されているファイルを全て削除しておくこと。
+
+```Bash
+git clone -vb default https://github.com/possior/config-fontconfig.git "$HOME/.config/fontconfig"
+```
+
 ## Fontconfig説明書
 
 ## 版本一覧
@@ -29,6 +35,12 @@
 - [License](#license)
 
 ## Installation
+
+Clone this repository at the directory `$HOME/.config/fontconfig`. Replace `default` with a branch or tag name you desire. Ensure that you have deleted all the files saved in the directory `$HOME/.config/fontconfig` in advance.
+
+```Bash
+git clone -vb default https://github.com/possior/config-fontconfig.git "$HOME/.config/fontconfig"
+```
 
 ## Fontconfig Documents
 
