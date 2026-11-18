@@ -6,6 +6,8 @@
 
 - [利用許諾](#利用許諾)
 
+## 導入
+
 ## Fontconfig説明書
 
 ## 版本一覧
@@ -19,6 +21,8 @@
 ## Table of Contents
 
 - [License](#license)
+
+## Installation
 
 ## Fontconfig Documents
 
