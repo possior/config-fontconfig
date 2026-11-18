@@ -18,4 +18,6 @@ do
   esac
 done
 
+[[ -z "$mode" ]] && mode=o || exit
+
 # CC0 1.0 UNIVERSAL. NO RIGHTS RESERVED. USE AT YOUR OWN RISK, NO WARRANTY.
