@@ -39,7 +39,7 @@ cd "$HOME/.config/fontconfig"; chmod +x installer.sh; ./installer.sh
 
 | 版本号 | 統一資源位置指定子 |
 | :---: | :--- |
-| `01.01` | [リポジトリ](https://github.com/possior/config-fontconfig/tree/ver.01.01.01/)、[リリース](https://github.com/possior/config-fontconfig/releases/tag/ver.01.01.01/) |
+| `01.01` | [リポジトリ](https://github.com/possior/config-fontconfig/tree/ver.01.01.02/)、[リリース](https://github.com/possior/config-fontconfig/releases/tag/ver.01.01.02/) |
 
 ## 利用許諾
 
@@ -84,7 +84,7 @@ cd "$HOME/.config/fontconfig"; chmod +x installer.sh; ./installer.sh
 
 | Version Number | Uniform Resource Locator |
 | :---: | :--- |
-| `01.01` | [repository](https://github.com/possior/config-fontconfig/tree/ver.01.01.01/), [release](https://github.com/possior/config-fontconfig/releases/tag/ver.01.01.01/) |
+| `01.01` | [repository](https://github.com/possior/config-fontconfig/tree/ver.01.01.02/), [release](https://github.com/possior/config-fontconfig/releases/tag/ver.01.01.02/) |
 
 ## License
 
