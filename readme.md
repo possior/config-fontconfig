@@ -26,7 +26,7 @@ cd "$HOME/.config/fontconfig"; git pull origin default
 一部の設定は`installer.sh`スクリプトを実行して適切な位置に導入する必要がある。設定ファイルを上書き保存する場合は`-o`または`--overwrite`を、しない場合は`-p`または`--preserve`を指定すること。
 
 ```Bash
-cd "$HOME/.config/bash"; chmod +x installer.sh; ./installer.sh
+cd "$HOME/.config/fontconfig"; chmod +x installer.sh; ./installer.sh
 ```
 
 ## Fontconfig説明書
@@ -71,7 +71,7 @@ cd "$HOME/.config/fontconfig"; git pull origin default
 Some configuration require execution of the `installer.sh` script to install them at an appropriate location. Specify `-o` or `--overwrite` when overwriting the configuration files or `-p` or `--preserve` when not. This script overwrites them by default.
 
 ```Bash
-cd "$HOME/.config/bash"; chmod +x installer.sh; ./installer.sh
+cd "$HOME/.config/fontconfig"; chmod +x installer.sh; ./installer.sh
 ```
 
 ## Fontconfig Documents
