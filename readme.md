@@ -32,7 +32,8 @@ cd "$HOME/.config/bash"; chmod +x installer.sh; ./installer.sh
 ## Fontconfig説明書
 
 | 対象ファイル | 概要 |
-| :---  | :--- |
+| :--- | :--- |
+| [`fonts.conf`](./doc/fonts.conf.md) | Fontconfigのためのユーザー設定。 |
 
 ## 版本一覧
 
@@ -76,7 +77,8 @@ cd "$HOME/.config/bash"; chmod +x installer.sh; ./installer.sh
 ## Fontconfig Documents
 
 | Target File | Description |
-| :---  | :--- |
+| :--- | :--- |
+| [`fonts.conf`](./doc/fonts.conf.md) | User configuration for Fontconfig. |
 
 ## Version List
 
