@@ -38,6 +38,17 @@
   </alias>
 ```
 
+以下のXML文章は、`monospace`フォントとして使用するフォント列（ここでは`"Liberation Mono"`）を設定する。
+
+```XML
+  <alias>
+    <family>monospace</family>
+    <prefer>
+      <family>Liberation Mono</family>
+    </prefer>
+  </alias>
+```
+
 # Fontconfig Document
 
 The XML sentence below declares use of XML 1.0.
@@ -75,3 +86,14 @@ The XML sentences below configures the sequence of fonts (`"Liberation Sans", "I
     </prefer>
   </alias>
   ```
+
+  The XML sentences below configures the sequence of fonts (`"Liberation Mono"` here) used as `monospace`.
+
+```XML
+  <alias>
+    <family>monospace</family>
+    <prefer>
+      <family>Liberation Mono</family>
+    </prefer>
+  </alias>
+```
