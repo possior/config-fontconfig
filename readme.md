@@ -33,6 +33,10 @@ cd "$HOME/.config/bash"; chmod +x installer.sh; ./installer.sh
 
 ## 版本一覧
 
+| 版本号 | 統一資源位置指定子 |
+| :---: | :--- |
+| `01.01` | [リポジトリ](https://github.com/possior/config-fontconfig/tree/ver.01.01.01/)、[リリース](https://github.com/possior/config-fontconfig/releases/tag/ver.01.01.01/) |
+
 ## 利用許諾
 
 [CC0 1.0 Universal](./license.txt)。全権留保せず。自己責任で使用せよ、保証なし。
@@ -69,6 +73,10 @@ cd "$HOME/.config/bash"; chmod +x installer.sh; ./installer.sh
 ## Fontconfig Documents
 
 ## Version List
+
+| Version Number | Uniform Resource Locator |
+| :---: | :--- |
+| `01.01` | [repository](https://github.com/possior/config-bash/tree/ver.01.01.01/), [release](https://github.com/possior/config-bash/releases/tag/ver.01.01.01/) |
 
 ## License
 
