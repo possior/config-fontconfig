@@ -62,6 +62,22 @@
   </alias>
 ```
 
+以下のXML文章は、日本語`sans-serif`フォントとして使用するフォント列（ここでは`"IPAexGothic"`）を設定する。
+
+```XML
+  <match target="pattern">
+    <test name="family">
+      <string>sans-serif</string>
+    </test>
+    <test name="lang" compare="contains">
+      <string>ja</string>
+    </test>
+    <edit name="family" mode="prepend" binding="strong">
+      <string>IPAexMincho</string>
+    </edit>
+  </match>
+```
+
 以下のXML文章は、`monospace`フォントとして使用するフォント列（ここでは`"Liberation Mono"`）を設定する。
 
 ```XML
@@ -134,6 +150,22 @@ The XML sentences below configures the sequence of fonts (`"Liberation Sans", "I
     </prefer>
   </alias>
   ```
+
+The XML sentences below configures the sequence of fonts (`"IPAexGothic"` here) used as Japanese `sans-serif` fonts.
+
+```XML
+  <match target="pattern">
+    <test name="family">
+      <string>sans-serif</string>
+    </test>
+    <test name="lang" compare="contains">
+      <string>ja</string>
+    </test>
+    <edit name="family" mode="prepend" binding="strong">
+      <string>IPAexMincho</string>
+    </edit>
+  </match>
+```
 
   The XML sentences below configures the sequence of fonts (`"Liberation Mono"` here) used as `monospace`.
 
