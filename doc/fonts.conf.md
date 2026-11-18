@@ -34,6 +34,22 @@
   </alias>
 ```
 
+以下のXML文章は、日本語`serif`フォントとして使用するフォント列（ここでは`IPAexMincho`）を設定する。
+
+```XML
+  <match target="pattern">
+    <test name="family">
+      <string>serif</string>
+    </test>
+    <test name="lang" compare="contains">
+      <string>ja</string>
+    </test>
+    <edit name="family" mode="prepend" binding="strong">
+      <string>IPAexMincho</string>
+    </edit>
+  </match>
+```
+
 以下のXML文章は、`sans-serif`フォントとして使用するフォント列（ここでは`"Liberation Sans", "IPAexGothic"`）を設定する。
 
 ```XML
@@ -89,6 +105,22 @@ The XML sentences below configures the sequence of fonts (`"Liberation Serif", "
       <family>IPAexMincho</family>
     </prefer>
   </alias>
+```
+
+The XML sentences below configures the sequence of fonts (`"IPAexMincho"` here) used as Japanese `serif` fonts.
+
+```XML
+  <match target="pattern">
+    <test name="family">
+      <string>serif</string>
+    </test>
+    <test name="lang" compare="contains">
+      <string>ja</string>
+    </test>
+    <edit name="family" mode="prepend" binding="strong">
+      <string>IPAexMincho</string>
+    </edit>
+  </match>
 ```
 
 The XML sentences below configures the sequence of fonts (`"Liberation Sans", "IPAexGothic"` here) used as `sans-serif` fonts.
