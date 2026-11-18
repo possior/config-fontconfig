@@ -26,6 +26,18 @@
   </alias>
 ```
 
+以下のXML文章は、`sans-serif`フォントとして使用するフォント列（ここでは`"Liberation Sans", "IPAexGothic"`）を設定する。
+
+```XML
+  <alias>
+    <family>sans-serif</family>
+    <prefer>
+      <family>Liberation Sans</family>
+      <family>IPAexGothic</family>
+    </prefer>
+  </alias>
+```
+
 # Fontconfig Document
 
 The XML sentence below declares use of XML 1.0.
@@ -51,3 +63,15 @@ The XML sentences below configures the sequence of fonts (`"Liberation Serif", "
     </prefer>
   </alias>
 ```
+
+The XML sentences below configures the sequence of fonts (`"Liberation Sans", "IPAexGothic"` here) used as `sans-serif` fonts.
+
+```XML
+  <alias>
+    <family>sans-serif</family>
+    <prefer>
+      <family>Liberation Sans</family>
+      <family>IPAexGothic</family>
+    </prefer>
+  </alias>
+  ```
