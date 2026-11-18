@@ -14,6 +14,14 @@
 <!DOCTYPE fontconfig SYSTEM "urn:fontconfig:fonts.dtd">
 ```
 
+以下のXML文は、その内部にFontconfigの設定を格納する。
+
+```XML
+<fontconfig>
+  <!-- ここにFontconfig設定 -->
+</fontconfig>
+```
+
 以下のXML文章は、`serif`フォントとして使用するフォント列（ここでは`"Liberation Serif", "IPAexMincho"`）を設定する。
 
 ```XML
@@ -61,6 +69,14 @@ The XML sentence below declares use of grammar defined under the name `fontconfi
 
 ```XML
 <!DOCTYPE fontconfig SYSTEM "urn:fontconfig:fonts.dtd">
+```
+
+The XML sentence below contains the Fontconfig settings inside it.
+
+```XML
+<fontconfig>
+  <!-- the Fontconfig settings here -->
+</fontconfig>
 ```
 
 The XML sentences below configures the sequence of fonts (`"Liberation Serif", "IPAexMincho"` here) used as `serif` fonts.
