@@ -6,6 +6,8 @@
 
 - [利用許諾](#利用許諾)
 
+## 版本一覧
+
 ## 利用許諾
 
 [CC0 1.0 Universal](./license.txt)。全権留保せず。自己責任で使用せよ、保証なし。
@@ -15,6 +17,8 @@
 ## Table of Contents
 
 - [License](#license)
+
+## Version List
 
 ## License
 
