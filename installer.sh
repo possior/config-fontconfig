@@ -31,7 +31,7 @@ dests=(
 
 [[ "${#files[@]}" == "${#dests[@]}" ]] && n="${#files[@]}" || exit
 
-[[ -z "$mode" ]] && mode=o || exit
+[[ -z "${mode:-}" ]] && mode=o || exit
 
 for (( i=0; i<"$n"; i++ ))
 do
