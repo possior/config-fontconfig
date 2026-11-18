@@ -20,8 +20,14 @@ done
 
 repo="$(dirname "${BASH_SOURCE[0]}")"
 
-files=()
-dests=()
+files=(
+  "$repo/doc/fonts.conf.md"
+  "$repo/src/fonts.conf"
+)
+dests=(
+  "$repo/fonts.conf.md"
+  "$repo/fonts.conf"
+)
 
 [[ "${#files[@]}" == "${#dests[@]}" ]] && n="${#files[@]}" || exit
 
