@@ -5,6 +5,7 @@
 ## 目次
 
 - [導入](#導入)
+- [Fontconfig説明書](#fontconfig説明書)
 - [利用許諾](#利用許諾)
 
 ## 導入
@@ -22,6 +23,7 @@
 ## Table of Contents
 
 - [Installation](#installation)
+- [Fontconfig Documents](#fontconfig-documents)
 - [License](#license)
 
 ## Installation
