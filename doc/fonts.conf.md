@@ -14,7 +14,7 @@
 <!DOCTYPE fontconfig SYSTEM "urn:fontconfig:fonts.dtd">
 ```
 
-以下のXML文章は、`serif`フォントとして使用するフォント列を設定する。
+以下のXML文章は、`serif`フォントとして使用するフォント列（ここでは`"Liberation Serif", "IPAexMincho"`）を設定する。
 
 ```XML
   <alias>
@@ -40,7 +40,7 @@ The XML sentence below declares use of grammar defined under the name `fontconfi
 <!DOCTYPE fontconfig SYSTEM "urn:fontconfig:fonts.dtd">
 ```
 
-The XML sentences below configures the sequence of fonts used as `serif` fonts.
+The XML sentences below configures the sequence of fonts (`"Liberation Serif", "IPAexMincho"` here) used as `serif` fonts.
 
 ```XML
   <alias>
