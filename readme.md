@@ -4,6 +4,7 @@
 
 ## 目次
 
+- [導入](#導入)
 - [利用許諾](#利用許諾)
 
 ## 導入
@@ -20,6 +21,7 @@
 
 ## Table of Contents
 
+- [Installation](#installation)
 - [License](#license)
 
 ## Installation
