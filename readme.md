@@ -6,6 +6,7 @@
 
 - [導入](#導入)
 - [Fontconfig説明書](#fontconfig説明書)
+- [版本一覧](#版本一覧)
 - [利用許諾](#利用許諾)
 
 ## 導入
@@ -24,6 +25,7 @@
 
 - [Installation](#installation)
 - [Fontconfig Documents](#fontconfig-documents)
+- [Version List](#version-list)
 - [License](#license)
 
 ## Installation
